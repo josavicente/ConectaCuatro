@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801DC22928A9A69C004F72F6 /* ConectaCuatroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */; };
+		801DC22B28A9A69C004F72F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC22A28A9A69C004F72F6 /* ContentView.swift */; };
+		801DC22D28A9A69E004F72F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801DC22C28A9A69E004F72F6 /* Assets.xcassets */; };
+		801DC23028A9A69E004F72F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801DC22F28A9A69E004F72F6 /* Preview Assets.xcassets */; };
+		801DC23A28A9A69E004F72F6 /* ConectaCuatroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC23928A9A69E004F72F6 /* ConectaCuatroTests.swift */; };
+		801DC24428A9A69E004F72F6 /* ConectaCuatroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC24328A9A69E004F72F6 /* ConectaCuatroUITests.swift */; };
+		801DC24628A9A69E004F72F6 /* ConectaCuatroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC24528A9A69E004F72F6 /* ConectaCuatroUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801DC23628A9A69E004F72F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801DC21D28A9A69C004F72F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801DC22428A9A69C004F72F6;
+			remoteInfo = ConectaCuatro;
+		};
+		801DC24028A9A69E004F72F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 801DC21D28A9A69C004F72F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801DC22428A9A69C004F72F6;
+			remoteInfo = ConectaCuatro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801DC22528A9A69C004F72F6 /* ConectaCuatro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConectaCuatro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectaCuatroApp.swift; sourceTree = "<group>"; };
+		801DC22A28A9A69C004F72F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		801DC22C28A9A69E004F72F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801DC22F28A9A69E004F72F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		801DC23528A9A69E004F72F6 /* ConectaCuatroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConectaCuatroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801DC23928A9A69E004F72F6 /* ConectaCuatroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectaCuatroTests.swift; sourceTree = "<group>"; };
+		801DC23F28A9A69E004F72F6 /* ConectaCuatroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConectaCuatroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801DC24328A9A69E004F72F6 /* ConectaCuatroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectaCuatroUITests.swift; sourceTree = "<group>"; };
+		801DC24528A9A69E004F72F6 /* ConectaCuatroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectaCuatroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801DC22228A9A69C004F72F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23228A9A69E004F72F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23C28A9A69E004F72F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		801DC21C28A9A69C004F72F6 = {
+			isa = PBXGroup;
+			children = (
+				801DC22728A9A69C004F72F6 /* ConectaCuatro */,
+				801DC23828A9A69E004F72F6 /* ConectaCuatroTests */,
+				801DC24228A9A69E004F72F6 /* ConectaCuatroUITests */,
+				801DC22628A9A69C004F72F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801DC22628A9A69C004F72F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801DC22528A9A69C004F72F6 /* ConectaCuatro.app */,
+				801DC23528A9A69E004F72F6 /* ConectaCuatroTests.xctest */,
+				801DC23F28A9A69E004F72F6 /* ConectaCuatroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801DC22728A9A69C004F72F6 /* ConectaCuatro */ = {
+			isa = PBXGroup;
+			children = (
+				801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */,
+				801DC22A28A9A69C004F72F6 /* ContentView.swift */,
+				801DC22C28A9A69E004F72F6 /* Assets.xcassets */,
+				801DC22E28A9A69E004F72F6 /* Preview Content */,
+			);
+			path = ConectaCuatro;
+			sourceTree = "<group>";
+		};
+		801DC22E28A9A69E004F72F6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				801DC22F28A9A69E004F72F6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		801DC23828A9A69E004F72F6 /* ConectaCuatroTests */ = {
+			isa = PBXGroup;
+			children = (
+				801DC23928A9A69E004F72F6 /* ConectaCuatroTests.swift */,
+			);
+			path = ConectaCuatroTests;
+			sourceTree = "<group>";
+		};
+		801DC24228A9A69E004F72F6 /* ConectaCuatroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				801DC24328A9A69E004F72F6 /* ConectaCuatroUITests.swift */,
+				801DC24528A9A69E004F72F6 /* ConectaCuatroUITestsLaunchTests.swift */,
+			);
+			path = ConectaCuatroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801DC22428A9A69C004F72F6 /* ConectaCuatro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801DC24928A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatro" */;
+			buildPhases = (
+				801DC22128A9A69C004F72F6 /* Sources */,
+				801DC22228A9A69C004F72F6 /* Frameworks */,
+				801DC22328A9A69C004F72F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConectaCuatro;
+			productName = ConectaCuatro;
+			productReference = 801DC22528A9A69C004F72F6 /* ConectaCuatro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801DC23428A9A69E004F72F6 /* ConectaCuatroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801DC24C28A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatroTests" */;
+			buildPhases = (
+				801DC23128A9A69E004F72F6 /* Sources */,
+				801DC23228A9A69E004F72F6 /* Frameworks */,
+				801DC23328A9A69E004F72F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801DC23728A9A69E004F72F6 /* PBXTargetDependency */,
+			);
+			name = ConectaCuatroTests;
+			productName = ConectaCuatroTests;
+			productReference = 801DC23528A9A69E004F72F6 /* ConectaCuatroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801DC23E28A9A69E004F72F6 /* ConectaCuatroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801DC24F28A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatroUITests" */;
+			buildPhases = (
+				801DC23B28A9A69E004F72F6 /* Sources */,
+				801DC23C28A9A69E004F72F6 /* Frameworks */,
+				801DC23D28A9A69E004F72F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801DC24128A9A69E004F72F6 /* PBXTargetDependency */,
+			);
+			name = ConectaCuatroUITests;
+			productName = ConectaCuatroUITests;
+			productReference = 801DC23F28A9A69E004F72F6 /* ConectaCuatroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		801DC21D28A9A69C004F72F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					801DC22428A9A69C004F72F6 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					801DC23428A9A69E004F72F6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 801DC22428A9A69C004F72F6;
+					};
+					801DC23E28A9A69E004F72F6 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 801DC22428A9A69C004F72F6;
+					};
+				};
+			};
+			buildConfigurationList = 801DC22028A9A69C004F72F6 /* Build configuration list for PBXProject "ConectaCuatro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 801DC21C28A9A69C004F72F6;
+			productRefGroup = 801DC22628A9A69C004F72F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801DC22428A9A69C004F72F6 /* ConectaCuatro */,
+				801DC23428A9A69E004F72F6 /* ConectaCuatroTests */,
+				801DC23E28A9A69E004F72F6 /* ConectaCuatroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801DC22328A9A69C004F72F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801DC23028A9A69E004F72F6 /* Preview Assets.xcassets in Resources */,
+				801DC22D28A9A69E004F72F6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23328A9A69E004F72F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23D28A9A69E004F72F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801DC22128A9A69C004F72F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801DC22B28A9A69C004F72F6 /* ContentView.swift in Sources */,
+				801DC22928A9A69C004F72F6 /* ConectaCuatroApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23128A9A69E004F72F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801DC23A28A9A69E004F72F6 /* ConectaCuatroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801DC23B28A9A69E004F72F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801DC24628A9A69E004F72F6 /* ConectaCuatroUITestsLaunchTests.swift in Sources */,
+				801DC24428A9A69E004F72F6 /* ConectaCuatroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801DC23728A9A69E004F72F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801DC22428A9A69C004F72F6 /* ConectaCuatro */;
+			targetProxy = 801DC23628A9A69E004F72F6 /* PBXContainerItemProxy */;
+		};
+		801DC24128A9A69E004F72F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801DC22428A9A69C004F72F6 /* ConectaCuatro */;
+			targetProxy = 801DC24028A9A69E004F72F6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		801DC24728A9A69E004F72F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801DC24828A9A69E004F72F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801DC24A28A9A69E004F72F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConectaCuatro/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801DC24B28A9A69E004F72F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConectaCuatro/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		801DC24D28A9A69E004F72F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConectaCuatro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConectaCuatro";
+			};
+			name = Debug;
+		};
+		801DC24E28A9A69E004F72F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConectaCuatro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConectaCuatro";
+			};
+			name = Release;
+		};
+		801DC25028A9A69E004F72F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConectaCuatro;
+			};
+			name = Debug;
+		};
+		801DC25128A9A69E004F72F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZQDPVPQ343;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = code.josavicente.ConectaCuatroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConectaCuatro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801DC22028A9A69C004F72F6 /* Build configuration list for PBXProject "ConectaCuatro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801DC24728A9A69E004F72F6 /* Debug */,
+				801DC24828A9A69E004F72F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801DC24928A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801DC24A28A9A69E004F72F6 /* Debug */,
+				801DC24B28A9A69E004F72F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801DC24C28A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801DC24D28A9A69E004F72F6 /* Debug */,
+				801DC24E28A9A69E004F72F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801DC24F28A9A69E004F72F6 /* Build configuration list for PBXNativeTarget "ConectaCuatroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801DC25028A9A69E004F72F6 /* Debug */,
+				801DC25128A9A69E004F72F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 801DC21D28A9A69C004F72F6 /* Project object */;
+}
