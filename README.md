@@ -1,6 +1,7 @@
-# CONECTA 4: Crea el juego conecta cuatro. Tienes un ejemplo parecido aquí.
+# Reto Enero
+## CONECTA 4: Crea el juego conecta cuatro.
 
-## Requisitos:
+### Requisitos:
 
 Tablero de 7x6 (7 en el eje "x" y 6 en el "y").
 Fichas Rojas y Amarillas. La primera partida la comienza siempre la Roja (la segunda la Amarilla, la tercera la Roja...).
