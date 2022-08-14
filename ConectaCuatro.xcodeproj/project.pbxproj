@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		801DC22928A9A69C004F72F6 /* ConectaCuatroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */; };
-		801DC22B28A9A69C004F72F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC22A28A9A69C004F72F6 /* ContentView.swift */; };
+		801DC22B28A9A69C004F72F6 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC22A28A9A69C004F72F6 /* BoardView.swift */; };
 		801DC22D28A9A69E004F72F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801DC22C28A9A69E004F72F6 /* Assets.xcassets */; };
 		801DC23028A9A69E004F72F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801DC22F28A9A69E004F72F6 /* Preview Assets.xcassets */; };
 		801DC23A28A9A69E004F72F6 /* ConectaCuatroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801DC23928A9A69E004F72F6 /* ConectaCuatroTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		801DC22528A9A69C004F72F6 /* ConectaCuatro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConectaCuatro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConectaCuatroApp.swift; sourceTree = "<group>"; };
-		801DC22A28A9A69C004F72F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		801DC22A28A9A69C004F72F6 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		801DC22C28A9A69E004F72F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		801DC22F28A9A69E004F72F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		801DC23528A9A69E004F72F6 /* ConectaCuatroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConectaCuatroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				801DC22828A9A69C004F72F6 /* ConectaCuatroApp.swift */,
-				801DC22A28A9A69C004F72F6 /* ContentView.swift */,
+				801DC22A28A9A69C004F72F6 /* BoardView.swift */,
 				801DC22C28A9A69E004F72F6 /* Assets.xcassets */,
 				801DC22E28A9A69E004F72F6 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				801DC22B28A9A69C004F72F6 /* ContentView.swift in Sources */,
+				801DC22B28A9A69C004F72F6 /* BoardView.swift in Sources */,
 				801DC22928A9A69C004F72F6 /* ConectaCuatroApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
