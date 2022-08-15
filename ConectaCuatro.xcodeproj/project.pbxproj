@@ -17,6 +17,9 @@
 		80A5D50528AAD3BF000BBF6F /* OrientationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D50428AAD3BF000BBF6F /* OrientationModel.swift */; };
 		80A5D50728AAD49E000BBF6F /* PortraitGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D50628AAD49E000BBF6F /* PortraitGameView.swift */; };
 		80A5D50928AAD4FE000BBF6F /* LandscapeGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D50828AAD4FE000BBF6F /* LandscapeGameView.swift */; };
+		80A5D50B28AAE1DC000BBF6F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D50A28AAE1DC000BBF6F /* GameModel.swift */; };
+		80A5D50F28AAE1F6000BBF6F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D50E28AAE1F6000BBF6F /* Player.swift */; };
+		80A5D51128AAE331000BBF6F /* BoardItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A5D51028AAE331000BBF6F /* BoardItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		80A5D50428AAD3BF000BBF6F /* OrientationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationModel.swift; sourceTree = "<group>"; };
 		80A5D50628AAD49E000BBF6F /* PortraitGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitGameView.swift; sourceTree = "<group>"; };
 		80A5D50828AAD4FE000BBF6F /* LandscapeGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeGameView.swift; sourceTree = "<group>"; };
+		80A5D50A28AAE1DC000BBF6F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		80A5D50E28AAE1F6000BBF6F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		80A5D51028AAE331000BBF6F /* BoardItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +154,9 @@
 		80A5D50328AAD398000BBF6F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				80A5D50A28AAE1DC000BBF6F /* GameModel.swift */,
+				80A5D50E28AAE1F6000BBF6F /* Player.swift */,
+				80A5D51028AAE331000BBF6F /* BoardItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -283,10 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				801DC22B28A9A69C004F72F6 /* GameView.swift in Sources */,
+				80A5D51128AAE331000BBF6F /* BoardItem.swift in Sources */,
 				801DC22928A9A69C004F72F6 /* ConectaCuatroApp.swift in Sources */,
 				80A5D50928AAD4FE000BBF6F /* LandscapeGameView.swift in Sources */,
+				80A5D50F28AAE1F6000BBF6F /* Player.swift in Sources */,
 				80A5D50528AAD3BF000BBF6F /* OrientationModel.swift in Sources */,
 				80A5D50728AAD49E000BBF6F /* PortraitGameView.swift in Sources */,
+				80A5D50B28AAE1DC000BBF6F /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

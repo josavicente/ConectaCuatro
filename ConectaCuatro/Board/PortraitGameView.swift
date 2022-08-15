@@ -9,40 +9,112 @@ import SwiftUI
 
 struct PortraitGameView: View {
     
-    let data = (1...42).map { "Item \($0)" }
-    let columns = [
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80))
-    ]
+    @ObservedObject var game : Game = Game()
     
     var body: some View {
-        ScrollView{
-            VStack{
+            ScrollView{
                 VStack{
-                    Text("Partida")
-                    Spacer()
+                        TitleView(game: game)
+                        PlayerDetailView(game: game)
+                        Spacer()
+                        BoardView(game: game)
                 }
-                Spacer()
-                LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(data, id: \.self) { item in
-                        Text(item)
-                    }
-                }
-                .padding(.horizontal)
-                
-                
+            }.onAppear {
+                game.emptyBoard()
             }
-        }
+        
     }
 }
 
 struct PortraitGameView_Previews: PreviewProvider {
     static var previews: some View {
         PortraitGameView()
+    }
+}
+
+struct TitleView: View {
+    
+    @ObservedObject var game : Game
+    
+    var body: some View {
+        HStack(){
+            Circle()
+                .frame(width: 50, height: 50)
+                .overlay{
+                    Image(systemName: "dpad")
+                        .frame(width: 30, height: 30)
+                        .foregroundColor(.white)
+                }
+            Text("Partida")
+                .font(.system(.title, design: .rounded))
+            
+            Spacer()
+        }
+        .padding()
+    }
+}
+
+struct PlayerDetailView: View {
+    
+    @ObservedObject var game : Game
+    
+    var body: some View {
+        HStack{
+            VStack{
+                HStack{
+                    Image(systemName: "person.fill")
+                    Text("Jugador 1")
+                }
+                .foregroundColor(Color(Jugador.rojo.color))
+                .font(.system(.title2, design: .rounded))
+                Text(String(game.player1.wins))
+            }
+            Spacer()
+            VStack{
+                HStack{
+                    Image(systemName: "person.fill")
+                    Text("Jugador 2")
+                }
+                .foregroundColor(Color(Jugador.amarillo.color))
+                .font(.system(.title2, design: .rounded))
+                Text(String(game.player2.wins))
+                
+            }
+        }
+        .padding()
+    }
+}
+
+struct BoardView: View {
+    
+    @ObservedObject var game : Game
+    let columns = [
+        GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20),
+               GridItem(.flexible(), spacing: 20)
+    ]
+    
+    var body: some View {
+        ZStack{
+            Color(.blue)
+                .cornerRadius(25)
+            LazyVGrid(columns: columns, spacing: 20) {
+                ForEach(game.board) { item in
+                    HStack{
+                        Circle()
+                            .foregroundColor(Color(item.player?.jugador.color ?? .white))
+                    }.onTapGesture {
+                       // game.board[item.setPlayer(jugador:game.juagadorActual)]
+                    }
+                }
+            }
+            .padding()
+        }
+        
+        .padding(.horizontal)
     }
 }
