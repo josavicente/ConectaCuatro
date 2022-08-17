@@ -50,6 +50,14 @@ class Game : ObservableObject {
         self.player2.resetPlayer()
     }
     
+    public func changePlayer(){
+        if  self.juagadorActual == Jugador.rojo {
+            self.juagadorActual = Jugador.amarillo
+        }else{
+            self.juagadorActual = Jugador.rojo
+        }
+    }
+    
     public func emptyBoard(){
         self.board = [BoardItem(id: 1, row: 0, column: 0, player: nil),
                       BoardItem(id: 2, row: 0, column: 1, player: nil),

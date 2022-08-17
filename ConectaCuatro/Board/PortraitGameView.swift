@@ -64,6 +64,7 @@ struct PlayerDetailView: View {
                 HStack{
                     Image(systemName: "person.fill")
                     Text("Jugador 1")
+                    Image(systemName: game.juagadorActual == Jugador.rojo ? "star.fill" : "star")
                 }
                 .foregroundColor(Color(Jugador.rojo.color))
                 .font(.system(.title2, design: .rounded))
@@ -74,6 +75,7 @@ struct PlayerDetailView: View {
                 HStack{
                     Image(systemName: "person.fill")
                     Text("Jugador 2")
+                    Image(systemName: game.juagadorActual == Jugador.amarillo ? "star.fill" : "star")
                 }
                 .foregroundColor(Color(Jugador.amarillo.color))
                 .font(.system(.title2, design: .rounded))
@@ -108,8 +110,7 @@ struct BoardView: View {
                         Circle()
                             .foregroundColor(Color(item.player?.jugador.color ?? .white))
                     }.onTapGesture {
-                       // game.board[item.setPlayer(jugador:game.juagadorActual)]
-                    }
+                        game.changePlayer()                    }
                 }
             }
             .padding()
@@ -117,4 +118,5 @@ struct BoardView: View {
         
         .padding(.horizontal)
     }
+    
 }
