@@ -9,35 +9,20 @@ import SwiftUI
 
 struct LandscapeGameView: View {
     
-    let data = (1...42).map { "Item \($0)" }
-    let columns = [
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80)),
-        GridItem(.adaptive(minimum: 80))
-    ]
+    @ObservedObject var game : Game = Game()
     
     var body: some View {
-        ScrollView{
-            HStack{
-
-                LazyVGrid(columns: columns, spacing: 20) {
-                    ForEach(data, id: \.self) { item in
-                        Text(item)
-                    }
+            ScrollView{
+                HStack{
+                        TitleView(game: game)
+                        PlayerDetailView(game: game)
+                        Spacer()
+                        BoardView(game: game)
                 }
-                .padding(.horizontal)
-                
-                VStack{
-                    Text("Partida")
-                    Spacer()
-                }
-                Spacer()
+            }.onAppear {
+                game.emptyBoard()
             }
-        }
+        
     }
 }
 

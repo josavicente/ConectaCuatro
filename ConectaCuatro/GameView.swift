@@ -15,13 +15,13 @@ struct GameView: View {
     
     var body: some View {
         
-        Group {
-            if orientation.isPortrait {
+//        Group {
+//            if orientation.isPortrait {
                 PortraitGameView()
-            } else if orientation.isLandscape {
-                LandscapeGameView()
-            }
-        }
+//            } else if orientation.isLandscape {
+//                LandscapeGameView()
+//            }
+//        }
         
     }
 }

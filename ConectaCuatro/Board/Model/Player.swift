@@ -5,7 +5,6 @@
 //  Created by Josafat Vicente Pérez on 15/8/22.
 //
 
-import Foundation
 import SwiftUI
 
 struct Player {
@@ -52,7 +51,7 @@ enum Jugador {
         case .rojo:
             return UIColor.red
         case .amarillo:
-            return UIColor.yellow
+            return UIColor.orange
         }
     }
     
